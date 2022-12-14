@@ -8,6 +8,7 @@
 // // import Message from './components/Message'
 // // import Counter from './components/Counter'
 import EventBind from './components/EventBind';
+import Contact from './components/Contact';
 import {Routes, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -15,10 +16,12 @@ class App extends Component {
          return (
             <div className='App'>
             <nav>
-               <EventBind />
+             <EventBind />
+             <Link to= "/Contact" className="nav-item" Contact ></Link> 
            </nav>
             
             <Routes>
+               <Route path = "/" element = {<Contact/>} />
                <Route path = "/" element={<EventBind />} />
             </Routes>
             </div>
