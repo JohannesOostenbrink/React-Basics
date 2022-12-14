@@ -8,18 +8,25 @@
 // // import Message from './components/Message'
 // // import Counter from './components/Counter'
 import EventBind from './components/EventBind';
+import {Routes, Route} from 'react-router-dom';
 
 class App extends Component {
      render() {
          return (
             <div className='App'>
+            <nav>
                <EventBind />
-
+           </nav>
+            
+            <Routes>
+               <Route path = "/" element={<EventBind />} />
+            </Routes>
             </div>
        )
     }  }
 
-
+// With Routing anchor tag is replaced with routing tag
+// <Link to="/" className="nav-item" Homepage</Link>
 
 // import Btn from './Btn';
 //import './App.css';
