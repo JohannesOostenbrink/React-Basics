@@ -1,37 +1,60 @@
-// import React, {Component} from 'react'
-// import './App.css'
-// import FunctionClick from './components/FunctionClick'
-// import ClassClick from './ components/ClassClick'
-// // import Greet from './components/Greet'
-// // import Welcome from './components/Welcome'
-// // import Hello from './components/Hello'
-// // import Message from './components/Message'
-// // import Counter from './components/Counter'
-import EventBind from './components/EventBind';
-import Contact from './components/Contact';
-import {Routes, Route} from 'react-router-dom';
+// How to import image in React
+////////////////////
+// import logo from './Components/Images/logo.png';
 
-class App extends Component {
-     render() {
-         return (
-            <div className='App'>
-            <nav>
-             <EventBind />
-             <Link to= "/Contact" className="nav-item" Contact ></Link> 
-           </nav>
+
+// function App() {
+//    return (
+//      <div className="App">
+//        <h1>Task: Add an image below</h1>
+
+//        <img src {logo} alt = "Picture of Logo" />
+       
+
+//      </div>
+//    );
+//  }
+ 
+//  export default App;
+ 
+
+
+
+// // import React, {Component} from 'react'
+// // import './App.css'
+// // import FunctionClick from './components/FunctionClick'
+// // import ClassClick from './ components/ClassClick'
+// // // import Greet from './components/Greet'
+// // // import Welcome from './components/Welcome'
+// // // import Hello from './components/Hello'
+// // // import Message from './components/Message'
+// // // import Counter from './components/Counter'
+// import EventBind from './components/EventBind';
+// import Contact from './components/Contact';
+// import {Routes, Route} from 'react-router-dom';
+
+// class App extends Component {
+//      render() {
+//          return (
+//             <div className='App'>
+//             <nav>
+//              <EventBind />
+//              <Link to= "/Contact" className="nav-item" Contact ></Link> 
+//            </nav>
             
-            <Routes>
-               <Route path = "/" element = {<Contact/>} />
-               <Route path = "/" element={<EventBind />} />
-            </Routes>
-            </div>
-       )
-    }  }
+//             <Routes>
+//                <Route path = "/" element = {<Contact/>} />
+//                <Route path = "/" element={<EventBind />} />
+//             </Routes>
+//             </div>
+//        )
+//     }  }
 
-// With Routing anchor tag is replaced with routing tag
-// <Link to="/" className="nav-item" Homepage</Link>
+// // With Routing anchor tag is replaced with routing tag
+// // <Link to="/" className="nav-item" Homepage</Link>
 
-// import Btn from './Btn';
+// // import Btn from './Btn';
+
 //import './App.css';
 // import ModeToggler from './ModeToggler';
 
