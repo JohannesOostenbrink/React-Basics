@@ -1,6 +1,9 @@
 //Practice Song Selection 
 
-// import React from "react";
+
+
+
+//// import React from "react";
 
 // function App() {
 
@@ -39,7 +42,17 @@
 // export default App;
 
 
+
+
+// Next Topic 
+
+
+
+
 // This is how I import media packages example;
+
+
+
 
 // import React from "react";
 // import ReactPlayer from "react-player/youtube";
@@ -62,10 +75,21 @@
 
 
 
-// How to import image in React
-////////////////////
-// import logo from './Components/Images/logo.png';
 
+// Next Topic 
+
+
+
+
+
+// How to import image in React
+
+
+
+
+
+
+// import logo from './Components/Assets/logo.png';
 
 // function App() {
 //    return (
@@ -83,9 +107,14 @@
  
 
 
+// Next Topic
+
+
+
+
+// Routing, Event Binding etc 
 
 // // import React, {Component} from 'react'
-// // import './App.css'
 // // import FunctionClick from './components/FunctionClick'
 // // import ClassClick from './ components/ClassClick'
 // // // import Greet from './components/Greet'
@@ -114,12 +143,17 @@
 //        )
 //     }  }
 
-// // With Routing anchor tag is replaced with routing tag
+// // With Routing anchor tag is replaced with routing tag. Routing is used instead of <a> in SPA
 // // <Link to="/" className="nav-item" Homepage</Link>
 
-// // import Btn from './Btn';
 
-//import './App.css';
+
+
+// Importing 
+
+
+
+// // import Btn from './Btn';
 // import ModeToggler from './ModeToggler';
 
 
@@ -133,6 +167,11 @@
 // }
 
 // export default App;
+
+
+
+
+//Event Handle 
 
 
 
@@ -155,9 +194,16 @@
 //   export default App;
 
 
+
+
+// Insert date props to child component
+
+
+
+
 // import Child from "./ Child"
 
-// import App(){
+// function App(){
 //     const date = new Date()
 
 //     return (
@@ -171,6 +217,15 @@
 // }
 
 // export default App;
+
+
+
+
+
+// Change State Within Component
+
+
+
 
 // import React, {useState} from 'react';
 // import Heading from './ Heading';
@@ -193,6 +248,13 @@
 // }
 // export default App;
 
+
+
+
+// Apply Changes to multiple child components via parent component
+
+
+
 // import MealsProvider from "./MealsProvider";
 // import MealsList from "./ MealsList";
 // import Counter from "./ Counter";
@@ -210,6 +272,14 @@
 // }
 
 // export default App;
+
+
+
+
+// Array Of Fruits with Counter
+
+
+
 
 // import Fruits from "./Fruits";
 // import FruitsCounter from "./FruitsCounter";
